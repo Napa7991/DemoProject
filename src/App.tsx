@@ -1,7 +1,8 @@
 import { Body } from "./component/Body"
 import { Header } from "./component/Header"
 import { Footer } from "./component/Footer"
-import { Contact } from "./component/Contact"
+// import { Contact } from "./component/Contact"
+import { Contact2 } from "./component/contact2"
 function App() {
   return (
     <>
@@ -9,11 +10,10 @@ function App() {
         <Header />
         <main>
           <Body />
-          <Contact/>
+          {/* <Contact/> */}
+          <Contact2 />
         </main>
         <Footer />
-
-
       </div>
 
 

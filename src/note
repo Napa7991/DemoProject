@@ -1,0 +1,14 @@
+#r Express : A tool to build server and handle request
+#r CORS : A browser security rule about which website can talk to which servers
+
+#r Node.js = engine that let js run on your computer outside browser
+
+#b --------------------------------------
+What to learn next
+
+Right now the data is only printed, not stored. The usual next steps are:
+
+Validate the data on the server (reject empty or invalid emails).
+Save it first to a JSON file using Node’s fs module, then to a real database like MongoDB or PostgreSQL.
+Environment variables (.env file) for the port and secrets.
+Auto-restart while developing: npm install -D nodemon, then run npx nodemon server.js, so you don’t restart manually after every change.
